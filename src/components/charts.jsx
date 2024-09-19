@@ -51,6 +51,9 @@ function Charts() {
     );
 
     wokroutsForChart = wokroutsForChart.slice(0,parseInt(timeFrame.split(" ")[1]));
+    wokroutsForChart = wokroutsForChart.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    console.log(wokroutsForChart)
 
     const reps = wokroutsForChart.map(workout => workout.reps)
     const kgs = wokroutsForChart.map(workout => workout.kg)
