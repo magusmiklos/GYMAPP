@@ -13,7 +13,7 @@ function HomePage() {
   const navigate = useNavigate();
   const handleSearch = () => {
     if (date.length > 0){
-      navigate('/edit-workout', { state: { date } });
+      navigate('/GYMAPP/edit-workout', { state: { date } });
     }
     
   };
@@ -22,7 +22,7 @@ function HomePage() {
     <div className="flex align-middle justify-center">
       <div className="flex flex-col pt-3">
         <div className='docker'>
-        <Link to="/new-workout">
+        <Link to="/GYMAPP/new-workout">
           <button
             className="m-5 px-4 py-2 bg-indigo-500 rounded-md hover:bg-indigo-700 focus:outline-none"
           >

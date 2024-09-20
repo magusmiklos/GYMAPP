@@ -70,7 +70,7 @@ function NewWorkoutType() {
     <div className="flex justify-center align-middle">
 <div className="flex flex-col mt-20">
   <div className="docker p-5">
-  <Link to="/new-workout">
+  <Link to="/GYMAPP/new-workout">
           <button className="px-4 py-2 bg-indigo-500 rounded-md hover:bg-indigo-700 focus:outline-none">
             Back
           </button>

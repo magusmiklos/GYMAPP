@@ -126,13 +126,13 @@ function NewWorkout(date) {
     <>
       <div className="flex flex-col items-center justify-center mt-3">
         <div className="docker p-5">
-          <Link to="/">
+          <Link to="/GYMAPP/">
             <button className="px-4 py-2 bg-indigo-500 rounded-md hover:bg-indigo-700 focus:outline-none mr-5">
               Back
             </button>
           </Link>
 
-          <Link to="/new-workout-type">
+          <Link to="/GYMAPP/new-workout-type">
             <button className="px-4 py-2 bg-indigo-500 rounded-md hover:bg-indigo-700 focus:outline-none">
               Types
             </button>
