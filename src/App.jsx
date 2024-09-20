@@ -9,10 +9,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/new-workout" element={<NewWorkout date={(new Date()).toISOString()} />} />
-        <Route path="/new-workout-type" element={<NewWorkoutType />} />
-        <Route path="/edit-workout" element={<NewWorkout/>} />
+        <Route path="/GYMAPP/" element={<HomePage />} />
+        <Route path="/GYMAPP/new-workout" element={<NewWorkout date={(new Date()).toISOString()} />} />
+        <Route path="/GYMAPP/new-workout-type" element={<NewWorkoutType />} />
+        <Route path="/GYMAPP/edit-workout" element={<NewWorkout/>} />
       </Routes>
     </Router>
   );
